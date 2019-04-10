@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     setTimeout(function() {
   $('#loading').addClass('hidden');
-}, 1);
+}, 6999);
     
     $('select').material_select();
 

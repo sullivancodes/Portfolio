@@ -43,7 +43,7 @@
 
 .line-1{
     position: relative;
-    top: 46%; 
+    top: 50%; 
     margin: 0 auto;
     text-align: center;
     white-space: nowrap;
@@ -106,8 +106,7 @@ font-size: 40px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);  
-    color: blue;
+    transform: translateY(-50%); 
     
     font-family: Megrim;
   font-size: 40%;
@@ -270,22 +269,22 @@ body {
 .portfolio-container {
   z-index: 100;
   background-color: rgb(247, 247, 247);
-  position: absolute;
+  position: relative;
   top: 70vh;
   height: auto;
   width: 100%;
   overflow: hidden;
     
-    -webkit-flex-direction: row;
+    -webkit-flex-direction: column;
   -webkit-justify-content: center;
   -webkit-align-items: center;
   display: -ms-flexbox;
-  -ms-flex-direction: row;
+  -ms-flex-direction: column;
   -ms-justify-content: center;
   -ms-align-items: center;
   -ms-flex-pack: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-pack: center;
@@ -352,6 +351,7 @@ body {
 /* Create an active/current tablink class */
 .tab button.active {
    border-bottom: 1px solid rgb(45, 210, 81);
+    color: rgb(45, 210, 81);
 }
 
 /* Style the tab content */
@@ -448,8 +448,8 @@ body {
 .company-logo-3 {
     height: 280px;
   width: 280px;
-    margin-top: 100px;
 }
+
 @media screen and (max-width:414px) {
   ::-webkit-scrollbar {
     width: 0px;
@@ -483,6 +483,9 @@ top: 46%;
 .tablink2 {
     width: 40%;
 }
+    .website-container {
+        width: 400px;
+    }
 }
 @media screen and (min-width: 500px) {
   .image-container a {
